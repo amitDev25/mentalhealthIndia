@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient Registration</title>
+    <link rel="stylesheet" href="style/newPatientRegistration.css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="style/newPatientRegistrationPhn.css">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="logoSpace">
+
+
+            <a href="index.html"><img src="images/logo1.png" alt=""></a>
+
+
+
+
+
+        </div>
+
+        <nav class="navbar">
+
+            <!-- <li><a id="Home" href="#">Home</a></li> -->
+            <li><a id="test" href="learnAbout.html">Learn About Mental Health</a></li>
+            <li><a id="aboutUs" href="#">About Us</a></li>
+            <li><a id="contact" href="contactUs.html">Contact Us</a></li>
+
+
+        </nav>
+        
+        <div class="menuIcon">
+            <span class="icon icon-bars"></span>
+            <span class="icon icon-bars overlay"></span>
+        </div>
+
+
+        <div class="overlay-menu">
+            <ul id="menu">
+
+                <li><a id="testPhn" href="learnAbout.html">Learn About Mental Health</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a id="contactPhn" href="contactUs.html">Contact Us</a></li>
+                <!-- <li><a id="loginPhn" href="login.html">LOGIN / SIGN UP</a></li> -->
+                <li><a id="selfTestPhn" href="selfTest.html">TAKE A MENTAL HEALTH TEST</a> </li>
+
+
+            </ul>
+            
+        </div>
+    </header>
+
+    <div class="patientForm">
+        <h1>
+            NEW PATIENT REGISTRATION
+        </h1>
+
+        <form action="#" class="registrationForm">
+            <div class="elements" id="element1">
+               <span>Patient Name: </span> <input type="text" id="name" name="name" placeholder="Enter The Name">
+            </div>
+            <div class="elements" id="element2">
+               <span>Adhaar Number: </span> <input type="text" id="adhaar" name="adhaar" placeholder="Enter Adhaar Number">
+            </div>
+            <div class="elements" id="element3">
+             <span>Date of Birth: </span>   <input type="date" id="dob" name="dob" >
+            </div>
+            
+            <div class="elements" id="element4">
+              <span>Mobile Number: </span>  <input type="text" id="number" name="number" placeholder="Enter Mobile Number">
+            </div>
+            <div class="elements" id="element5">
+              <span>Email Id: </span>  <input type="email" id="email" name="email" placeholder="Enter Email Id">
+            </div>
+
+            <div class="elements" id="element6">
+                <span>Guardian's Mobile Number: </span>  <input type="text" id="guardian" name="guardian" placeholder="Enter Guardian's Mobile No.">
+              </div>
+            <div class="elements" id="element7">
+                <input type="submit" value="Register" id="submit">
+                <input type="reset" value="Reset All" id="reset">
+
+            </div>
+            
+        </form>
+
+    </div>
+    <script src="script/navMenu.js"></script>
+
+</body>
+</html>
